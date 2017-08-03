@@ -1,0 +1,340 @@
+#tips{
+	width:990px;
+	height:14px;
+	font-family: '宋体';
+    font-size: 12px;
+    color: #999;
+    margin: 20px auto;
+}
+#user-content{
+	width:990px;
+	height:950px;
+	margin:0 auto;
+}
+.user-left{
+	width: 140px;
+	height:950px;
+	float: left;
+}
+.home{
+	width: 100%;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    border: solid 1px #ddd;
+    color: #333;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    background: url(../img/1.png) no-repeat 12px 5px;
+}
+.home span{
+	padding-left: 54px;
+}
+.nav{
+	width: 100%;
+    height: auto;
+    border: solid 1px #ddd;
+    border-bottom: none;
+    margin-top: 10px;	
+}
+.nav .menu{
+	border-bottom: solid 1px #ddd;
+}
+.menu dt{
+	width: 85.5%;
+    height: 30px;
+    line-height: 30px;
+    background: #fafafa url(../img/dt1.jpg) no-repeat 120px center;
+    padding: 0 10px;
+    font-family: '宋体';
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu dd{
+	padding: 10px 20px;
+	font-size:13px;
+	font-family: '宋体';
+    color: #333;
+}
+.menu dd li{
+	padding-bottom: 7px;
+}
+.menu dt.show{
+	background: #fafafa url(../img/dt2.jpg) no-repeat 120px center;
+}
+.pic{
+	margin-top: 10px;
+}
+.user-right{
+	float:left;
+	margin-left:10px;
+}
+.password-info{
+	margin:40px 0 0 100px;
+	width:740px;
+	height:829px;
+}
+.user-right h1{
+	width: 840px;
+    color: #c80a28;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #c80a28;
+    margin-bottom: 8px;
+}
+.user-right h1 span{
+	float:right;
+	color: rgb(51, 102, 204);
+	font-family: 宋体;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+    cursor: pointer;
+} 
+.address-info{
+	width: 840px;
+    height: auto;
+  	margin-top:10px;
+  	color: rgb(102, 102, 102);
+    font-family: 微软雅黑;
+}
+table{
+	width:840px;
+	border-collapse: collapse;
+	border: 1px solid rgb(221, 221, 221);
+	font-size: 12px;
+    border-spacing: 0px;
+}
+table .th{
+	height: 33px;
+    line-height: 33px;
+    color: rgb(102, 102, 102);
+    background: rgb(250, 250, 250);
+}
+tr{
+	border: 1px solid rgb(221, 221, 221);
+	height:33px;
+	line-height: 33px;
+	color: rgb(102, 102, 102);
+    font-family: 微软雅黑;
+	text-align: center;
+}
+th{border: 1px solid rgb(221, 221, 221);}
+td{
+	border: 1px solid rgb(221, 221, 221);
+}
+.handle{
+	text-align: left;
+	width:235px;
+	padding:0 6px;
+}
+.handle strong{
+	font-weight: normal;
+	cursor: pointer;
+}
+.handle span{
+	float:right;
+	display: inline-block;
+}
+.handle span .a1{
+	color: rgb(51, 102, 204);
+	border-right:1px solid rgb(221, 221, 221);
+	height:12px;
+	padding: 0 6px;
+	cursor: pointer;	
+}
+.handle span .a2{
+	padding: 0 6px;	
+	cursor: pointer;	
+}
+.add-address{
+	width:450px;
+	height:300px;
+	border:6px solid #DDD;
+	background:#fff;
+	position:absolute;
+    top:370px;
+    right:300px;
+    padding:6px;
+    font-size:12px;
+    color: #666;
+    display: none;
+}
+.add-address .p1{
+	border-bottom:1px dashed #d3d7db;
+	height:35px;
+	line-height: 35px;
+	padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.add-address .p1 span{
+    float:right;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin:6px 6px 0 0;
+    background:  url(../img/dialog_close_button.png) no-repeat right bottom;
+    cursor: pointer;
+}
+.info-form{
+	padding: 10px 0 0 10px;
+	width:420px;
+	height:200px;
+	border-bottom: 1px dashed #d3d7db;
+}
+.item{
+	width:420px;
+	height:22px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.item .left{
+	float: left;
+	width:85px;
+	height:22px;
+    text-align: left;
+    
+}
+.item .left span{
+	color: #c80a28;
+}
+.item .right{
+	float:left;
+}
+.item .right input{
+    height: 20px;
+    WIDTH:247PX;
+    line-height: 20px;
+    border: solid 1px #ddd;
+}
+.address{
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #dedede;
+}
+#distpicker2 select{
+	width:80px;	
+}
+.btn{
+	margin:15px 100px;
+}
+.save-btn,.close-btn{
+	color: #FFF;
+	width: 75px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background: url("../img/btn_yes_no.png");
+    font-family: '微软雅黑';
+    font-size: 16px;
+    cursor: pointer;
+}
+.close-btn{
+	background: url("../img/btn_yes_no.png");
+	color: #666;
+    background-position: -81px 0px;
+    margin:0 10px;
+}
+.warm-tip{
+	width:350px;
+	height:150px;
+	background:#fbfbfb;
+	box-shadow:-10px 0px 20px #E9E9E9, /*左边阴影*/   
+			    10px 0 20px #E9E9E9, /*右边阴影*/  
+			    0 -10px 20px #E9E9E9, /*顶部阴影*/  
+			    0 10px 20px #E9E9E9; /*底边阴影*/
+	position:absolute;
+    top:500px;
+    right:600px;
+    font-size:14px;
+    display: none;
+}
+.warm-tip .p1{
+	background:#f2f4f5;
+	border-bottom:1px solid #d3d7db;
+	height:35px;
+	line-height: 35px;
+	padding-left: 10px;
+}
+.warm-tip .p1 span{
+	background: url(../img/off5.jpg) no-repeat right center;
+	display: inline-block;
+	float:right;
+	width:40px;
+	height:35px;
+}
+.tip-info{
+	margin:10px 20px;	
+}
+.tip-info .p2{
+	height:30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.tip-info .p3{
+	border:1px solid #d3d7db;
+	background: #fbfbfb ;
+	float:right;
+	width:70px;
+	height:25px;
+	margin:25px 8px 0 0;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.success-tip{
+	display:none;
+	width:250px;
+	height:120px;
+	border:10px solid #DDD;
+	background:#fff;
+	position:absolute;
+    top:450px;
+    right:400px;
+    padding:6px;
+    font-size:12px;
+    color: #666;
+}
+.success-tip .p1{
+	border-bottom:1px dashed #d3d7db;
+	height:35px;
+	line-height: 35px;
+	padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.success-tip .p1 span{
+    float:right;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin:6px 6px 0 0;
+    background:  url(../img/dialog_close_button.png) no-repeat right bottom;
+    cursor: pointer;
+} 
+.success-tip .sav{
+	height:30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-size:14px;
+}
+.success-tip .sucBtn{
+	color: #FFF;
+	width: 75px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background: url(../img/btn_yes_no.png);
+    font-family: '微软雅黑';
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin:10px 70px;
+}

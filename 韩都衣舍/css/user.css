@@ -1,0 +1,271 @@
+#tips{
+	width:990px;
+	height:14px;
+	font-family: '宋体';
+    font-size: 12px;
+    color: #999;
+    margin: 20px auto;
+}
+#user-content{
+	width:990px;
+	height:950px;
+	margin:0 auto;
+}
+.user-left{
+	width: 140px;
+	height:950px;
+	float: left;
+}
+.home{
+	width: 100%;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    border: solid 1px #ddd;
+    color: #333;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    background: url(../img/1.png) no-repeat 12px 5px;
+}
+.home span{
+	padding-left: 54px;
+}
+.nav{
+	width: 100%;
+    height: auto;
+    border: solid 1px #ddd;
+    border-bottom: none;
+    margin-top: 10px;	
+}
+.nav .menu{
+	border-bottom: solid 1px #ddd;
+}
+.menu dt{
+	width: 85.5%;
+    height: 30px;
+    line-height: 30px;
+    background: #fafafa url(../img/dt1.jpg) no-repeat 120px center;
+    padding: 0 10px;
+    font-family: '宋体';
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu dd {
+	padding: 10px 20px;
+	font-size:13px;
+	font-family: '宋体';
+    color: #333;
+}
+.menu dd li {
+	padding-bottom: 7px;
+	cursor: pointer;
+}
+.menu dt.show{
+	background: #fafafa url(../img/dt2.jpg) no-repeat 120px center;
+}
+.pic{
+	margin-top: 10px;
+}
+.user-right{
+	float:left;
+	margin-left:10px;
+}
+.user-right h1{
+	width: 840px;
+    color: #c80a28;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #c80a28;
+    margin-bottom: 8px;
+}
+.user-info{
+	padding: 30px 0 0 80px;
+	width:760px;
+	height:829px;
+	position:relative;
+}
+.user-info .p1{
+	font-family: '微软雅黑';
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.div1{
+	margin: 30px 0 26px 0;
+	width: 790px;
+    height: 177px;
+}
+.div1 .left{
+	float: left;
+	width:85px;
+	font-size: 12px;
+    text-align: right;
+    line-height: 18px;
+}
+.div1 .right{
+	float:left;
+	height:177px;
+}
+.div1 .right .pp img{
+	width:120px;
+	height:145px;
+}
+.div1 .right .change{
+	width: 120px;
+    height: 32px;
+    font-size:13px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    color: #3366cc;
+    font-weight: 100;
+    font-family: '宋体';
+    cursor: pointer;
+}
+.item{
+	width:790px;
+	height:22px;
+	margin-bottom: 25px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.item .left{
+	float: left;
+	width:85px;
+	height:22px;
+    text-align: left;
+    
+}
+.item .left span{
+	color: #c80a28;
+}
+.item .right{
+	float:left;
+	width:700px;
+}
+.item .right input{
+    height: 20px;
+    line-height: 20px;
+    border: solid 1px #ddd;
+}
+.item .sex input{
+	vertical-align: middle;
+	margin-top:0;
+}
+.address{
+	width: 313px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #dedede;
+}
+.btn{
+	margin-left:15px;
+}
+.user-info .user-txt{
+	padding: 10px 5px;
+    color: #666;
+    font-family: '宋体';
+}
+.user-info .user-txt p{
+	line-height: 22px;
+	font-size:12px;	
+}
+.user-info .user-txt p a{
+	color:#3366cc;
+}
+.errMsg{
+	position: absolute;
+	top:600px;
+	right:290px;
+	z-index: 999;
+	display: none;	
+	width:200px;
+	height:130px;
+	border:3px solid #ccc;
+	padding:10px 20px;
+	z-index: 999;
+	background: #FFFFFF;
+}
+.errMsg h3{
+	border-bottom: 1px dotted #ccc;
+	height:30px;
+}
+.errMsg h3 span{
+	display: inline-block;
+	float:right;
+}
+.errMsg p{
+	color:#333;
+	font-size:14px;
+	line-height: 50px;
+}
+.errMsg b{
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	width:50px;
+	height:30px;
+	color:#FFFFFF;
+	font-size:14px;
+	background: #bd0a26;
+	margin:10px 70px;
+}
+.screen{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 999;
+    height: 1642px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+.dialog{
+	z-index: 9999;
+    position: absolute;
+    width: 730px;
+    height:650px;
+    left: 346.5px;
+    top: 20px;
+    border: 6px solid #DDD;
+    background: #fff;
+    display: none;
+    padding:10px;
+}
+.dialog h3{
+	height: 30px;
+    border-bottom: 1px dashed #CCC;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 24px;
+}
+.dialog h3 span{
+	display: block;
+	float:right;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+	background: url(../img/dia1.jpg) no-repeat right center;
+}
+.cont{
+	width: 600px;
+    margin: 20px auto;
+}
+.cont h4{
+	display: block;
+	font-size:28px;
+	color:#000;
+	margin-bottom:20px;
+}
+.dialog .cont h4 small{
+	font-size: 12px;
+    color: #888;
+    font-weight: normal;
+}

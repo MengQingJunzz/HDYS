@@ -1,0 +1,254 @@
+
+#banner{
+	width:1000px;
+	height:60px;
+	margin:20px auto 0;
+}
+
+/*register*/
+#register{
+	height:518px;
+	width:1130px;
+	margin: auto;
+	padding:30px 0 0 80px;
+}
+.register-left{
+	border-right:1px dashed #ccc;
+	width:412px;
+	height:505px;
+	float:left;
+}
+.register-left-user p{
+	font-size:14px;
+	color:#302f34;
+	display:inline-block;
+}
+.register-left-user input{
+	width:103px;
+	height:30px;
+	background:#c18046;
+	text-align:center ;
+	line-height:30px;
+	border:none;
+	font-size:17px;
+	color:#fff;
+	border-radius: 5px;
+	cursor:pointer ;
+}
+.register-left-user img{
+	width:367px;
+	height:250px;
+}
+.sub .sub-txt{
+	width:252px;
+	height:27px;
+	margin-top:35px;
+}
+.sub .sub-btn{
+	width:70px;
+	height:24px;
+	border:none;
+	padding:10px;
+	background: url(../img/footer00.png) no-repeat;
+	cursor:pointer ;	
+}
+.register-right{
+	padding-left:50px;
+    float:left;
+}
+.register-ways{
+	width:550px;
+	border-bottom:1px dashed #ddd;
+	height:120px;
+	position:relative;
+}
+.register-num{
+	background: url(../img/NEWS_login.png) no-repeat 0 -326px;
+	width:22px;
+	height:22px;
+	color:#fff;
+	float:left;
+	text-align: center;
+	line-height:22px;
+	margin-top:8px;	
+}
+.register-p{
+	width:120px;
+	float:left;
+	margin:10px;
+}
+.register-fs{
+	float:left;
+}
+.telbtn{
+	background:url(../img/NEWS_login.png) no-repeat 0 -102px;
+	width:135px;
+	height:38px;
+	border:none;
+	line-height:32px;
+	float: left;
+	text-align: center;
+	font-size:14px;
+	margin-left:10px;
+	color:#fff;
+}
+.mailbtn{
+	background:url(../img/NEWS_login.png) no-repeat 0 -151px;
+	width:135px;
+	height:38px;
+	border:none;
+	line-height:32px;
+	float: left;
+	text-align: center;
+	font-size:14px;
+	margin-left:10px;
+	color:#393939;
+}
+.prompt .first{
+	display: inline-block;
+	border:1px solid #ccc;
+	background:#fffac3;
+	width:200px;
+	height:40px;
+	font-size:13px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top:5px;
+	margin-left: 140px;
+	position:absolute;
+	top:45px;
+	left:20px;
+}
+.prompt .two{
+	display: inline-block;
+	border:1px solid #ccc;
+	background:#fffac3;
+	width:300px;
+	height:40px;
+	font-size:12px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top:5px;
+	display:none;
+	position:absolute;
+	top:45px;
+	left:180px;
+}
+.prompt span.active{
+	display:block;
+}
+/*注册信息*/
+.register-msg{
+	margin-top:10px;
+}
+.register-list{
+	width:600px;
+}
+.register-list li{
+	width:600px;
+	line-height:33px;
+	float:left;
+	position:relative;
+}
+.register-list-name{
+	width:145px;
+	text-align: right;
+	color:#393939;
+	float:left;	
+}
+.register-list-code{
+	width:145px;
+	text-align: right;
+	color:#393939;
+	float:left;	
+	margin:5px 0;
+	height:25px;
+	text-align: center;
+}
+.codeword{
+	text-align: right;
+}
+.random-code{
+    border:1px solid #C8C8C8;
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float:right;
+    margin:5px 200px 0 0;
+    color:green;
+}
+.register-list li img{
+	margin:10px 0 0 10px;
+}
+.register-list-txt{
+	background:url(../img/shopping_login.png) no-repeat -0 -182px;
+	width:210px;
+	height:33px;
+	border:none;
+	float:left;
+	text-indent: 5px;
+	line-height:33px;
+}
+.register-list .errMsg{
+	color:firebrick;
+	font-size:14px;
+	display:none;
+}
+.register-list .errMsg1{
+	color:firebrick;
+	font-size:14px;
+	display:none;
+	width:80px;
+	height:30px;
+	float:right;
+	position:absolute;
+	top:0;
+	right:115px;
+}
+.register-list-send{
+	background:url(../img/NEWS_login.png) no-repeat -256px -107px;
+	width:116px;
+	height:26px;
+	text-align:center;
+	margin:3px 0 0 5px;
+	color:#7b7b7b;
+	border:none;
+}
+
+.register-list-prompt {
+	font-size: 12px;
+	color:#999;
+	margin-left:145px;
+	width:610px;
+}
+.register-list-prompt a{
+	display:inline-block;
+	color:#bf0000;	
+}
+.register-list-protocol{
+	margin-left: 145px;
+}
+.register-list-protocol a{
+	color:#bf0000;
+}
+.register-list-submit{
+	width:171px;
+	height:43px;
+	border:none;
+	font-size:18px;
+	margin:10px 0 0 145px;
+	color:#fff;
+	background: url(../img/NEWS_login.png) no-repeat 0 -51px;
+	cursor: pointer;
+}
+.errMsg{
+	width:210px;
+	height:16px;
+	position:absolute;
+	top:0;
+	left:370px;
+}

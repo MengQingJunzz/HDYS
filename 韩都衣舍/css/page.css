@@ -1,0 +1,217 @@
+
+#banner{
+	width:100%;
+	
+}
+/*分页内容*/
+
+#page-title{
+	width: 1000px;
+    height: 20px;
+    margin: 20px auto;
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+#page-title dt{
+	float: left;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#page-title dd{
+	text-align: center;
+    float: left;
+    margin: 0 2px;
+    position: relative;
+    cursor: pointer;
+    padding: 0 14px;
+}
+#page-sort{
+	width:1000px;
+	height:32px;
+	margin:0 auto;
+	margin-top:20px;
+	font-size:12px;
+	border: 1px solid #DDD;
+}
+#page-sort .sort-set{
+	width:360px;
+	height:30px;
+	float:left;
+}
+.sort-set li{
+	width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-indent: -10px;
+    text-align: center;
+    border-right: 1px solid #DDD;
+    position:relative;    
+}
+.sort-set li a{
+	color:#565656;
+}
+.sort-set  i{
+    width: 7px;
+    height: 8px;
+    display: block;
+    position:absolute;
+}
+.sort-set .time i{
+    background: url(../img/arrs2.jpg) no-repeat center;
+    top:12px;
+    right:8px;
+}
+.sort-set .price i{
+    background: url(../img/arrs3.jpg) no-repeat center;
+    top:12px;
+    right:20px;
+}
+.sort-set .sale i{
+    background: url(../img/arrs1.jpg) no-repeat center;
+    top:12px;
+    right:20px;
+}
+.sort-set li.active{
+	background:#ECECEC;
+}
+.price-select{
+	width:120px;
+	height:30px;
+	float:left;
+	margin-top:5px;
+	position:relative;
+	z-index: 1;
+}
+.price-select input{
+	width:40px;
+	color:#000;	
+	text-align: center;
+}
+.price-select span{
+	padding:0 5px;
+	display: inline-block;
+}
+.btn{
+	display: none;
+	position: absolute;
+	left: 580px;
+	width: 100px;
+	height: 30px;
+	background:#FFFFFF;
+	padding-top:30px;
+	z-index: 0;
+}
+.btn .clear{
+	margin: 3px 4px;	
+	width: 39px;
+	height: 18px;
+	background: url(../img/rangeBtn.png) no-repeat;
+	cursor: pointer;
+	border: none;
+}
+.btn .yes{
+	margin: 3px 4px;
+	width: 39px;
+	height: 18px;
+	background: url(../img/rangeBtn.png) no-repeat 0 -20px;
+	cursor: pointer;
+	border: none;
+}
+.check{
+	float: left;
+    margin: 5 5px;
+    line-height: 30px;
+}
+.check .hide{
+	width: 12px;
+    height: 12px;
+    display: block;
+    float: left;
+    margin: 10px ;
+    margin-left:20px;
+}
+.page-r{
+	float: right;
+    padding: 6px 8px;
+    font: 12px 'arial';
+    color: #666;
+    position: relative;
+    margin-top:5px;
+}
+.page-r .arr{
+	font-family: Simsun;
+    font-weight: bold;
+    padding: 1px 3px 0;
+    border: 1px solid #CCC;
+    vertical-align: bottom;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#main{
+	width:1000px;
+	height:auto;
+	margin:10px auto;
+}
+#main ul{
+	width:1000px;
+	height:auto;
+}
+#main ul li{
+	width;224px;
+	height:264px;
+	border: 1px solid #ddd;
+	float:left;
+	padding:8px;
+	margin:0 12px 20px 0;
+	position:relative;
+}
+#main ul li img{
+	width:220px;
+	height:222px;
+}
+#main ul li p{
+	width: 100%;
+    text-align: center;
+    height:30px;
+    line-height: 40px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 20px;
+    color: #c80a28;
+}
+#main ul li p span{
+	margin-top: 2px;
+    margin-left: 5px;
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+#main .pages .tcdNumber,.current{ 
+	display: inline-block; 
+	width: 30px; 
+	height: 30px; 
+	text-align: center; 
+	line-height: 30px; 
+	border: 1px solid #ccc; 
+	margin: 0 5px; 
+	color: #000;
+	
+}
+#main .pages .current{ background: #EEEEEE;}
+#main .pages{
+	margin-left: 300px;
+}
+.addCart{
+	width: 100%;
+    height: 40px;
+    background: #bc0000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    cursor: pointer;
+    position:absolute;
+    left:0;
+    bottom: 0;
+}
